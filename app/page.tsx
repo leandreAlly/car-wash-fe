@@ -1,11 +1,12 @@
 import { Button } from 'antd';
+import LandingPage from './components/main/LandingPage';
+import NavBar from './components/sub/NavBar';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-black">Landing Page</h1>
-      <Button type="primary">Primary Button</Button>
-      <h2 className="bg-primary">Test primary color</h2>
+    <main className="relative">
+      <NavBar />
+      <LandingPage />
     </main>
   );
 }
