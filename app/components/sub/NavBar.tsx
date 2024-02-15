@@ -1,18 +1,11 @@
 'use client';
 
+import { navLinks } from '@/app/utils/Links';
 import { makondo } from '@/app/utils/fonts';
 import { hamburger } from '@/app/utils/images';
 import { Divider } from 'antd';
 import Image from 'next/image';
 import Link from 'next/link';
-
-export const navLinks = [
-  { href: '#profile', label: 'Profile' },
-  { href: '#booking', label: 'Booking' },
-  { href: '#offers', label: 'Offers' },
-  { href: '#save', label: 'Save' },
-  { href: '#about-us', label: 'About Us' },
-];
 
 const NavBar = () => {
   return (
