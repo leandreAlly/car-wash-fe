@@ -1,14 +1,15 @@
-import { Button } from 'antd';
-import React from 'react';
+'use client';
+
+import GlobalButton from '../../shareable/Button';
 
 const Hero = () => {
   return (
     <section id="profile">
       <div>
         <div>
-          <Button type="primary" className="bg-white">
-            Book Now
-          </Button>
+          <GlobalButton type="primary" className="text-black">
+            Get Started
+          </GlobalButton>
         </div>
       </div>
     </section>
