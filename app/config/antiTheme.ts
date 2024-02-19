@@ -5,12 +5,12 @@ import { theme, ThemeConfig } from 'antd';
 const antdTheme: ThemeConfig = {
   algorithm: [theme.darkAlgorithm],
   token: {
-    colorPrimary: '#EFEFEF',
-    colorLink: '#FCA20F',
+    colorPrimary: '#000000',
+    colorLink: '#321B1B',
   },
   components: {
     Menu: {
-      darkItemSelectedBg: '#564A34',
+      darkItemSelectedBg: '#F5F5F5',
     },
     Input: {
       controlHeight: 32,
