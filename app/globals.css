@@ -23,7 +23,7 @@
 
 @layer utilities {
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
+    @apply sm:px-14 px-6 sm:py-20 py-10;
   }
 
   .padding-x {
@@ -43,7 +43,7 @@
   }
 
   .padding-t {
-    @apply sm:pt-24 pt-12;
+    @apply sm:pt-20 pt-10;
   }
 
   .padding-b {

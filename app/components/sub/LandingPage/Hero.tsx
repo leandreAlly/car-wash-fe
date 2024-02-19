@@ -6,7 +6,7 @@ import { homeCar, rightSlider, leftSlider } from '@/app/utils/images';
 
 const Hero = () => {
   return (
-    <section id="profile">
+    <section id="profile" className="max-container">
       <div className="flex flex-1 justify-center items-center">
         <div>
           <div className="p-20 mx-auto">
