@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import GlobalButton from '../../shareable/Button';
-import { homeCar } from '@/app/utils/images';
+import { homeCar, rightSlider, leftSlider } from '@/app/utils/images';
 
 const Hero = () => {
   return (
@@ -23,6 +23,16 @@ const Hero = () => {
               height={1000}
               className="rounded-lg"
             />
+          </div>
+          <div className="flex justify-between items-center mt-[-6.984rem] mx-4">
+            <Image
+              src={leftSlider}
+              alt="right-slider"
+              width={50}
+              height={50}
+              className="transform rotate-180"
+            />
+            <Image src={rightSlider} alt="left-slider" width={50} height={50} />
           </div>
         </div>
       </div>
