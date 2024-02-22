@@ -1,3 +1,4 @@
+import Footer from '../../sub/Footer';
 import OurServices from '../../sub/LandingPage/About';
 import Contact from '../../sub/LandingPage/Contact';
 import Hero from '../../sub/LandingPage/Hero';
@@ -19,6 +20,9 @@ const LandingPage = () => {
       </section>
       <section className="bg-primary">
         <Contact />
+      </section>
+      <section className="bg-primary h-[40vh] max-sm:h-[100vh]">
+        <Footer />
       </section>
     </main>
   );

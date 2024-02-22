@@ -38,7 +38,7 @@ const OurServices = () => {
             );
           })}
 
-          <GlobalButton className="rounded-3xl mt-10 mx-5">
+          <GlobalButton className="rounded-xl mt-10 mx-5">
             Explore More
           </GlobalButton>
         </div>
