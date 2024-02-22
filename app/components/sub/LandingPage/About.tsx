@@ -19,7 +19,7 @@ const description = [
 
 const OurServices = () => {
   return (
-    <div className="max-container p-10 h-screen">
+    <div className="max-container p-10 ">
       <div className="flex flex-1 flex-grow justify-center  gap-10 mx-auto max-sm:flex-col">
         <div className="">
           <Image src={aboutCar} alt="about-car" width={600} height={600} />

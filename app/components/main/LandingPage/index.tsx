@@ -1,4 +1,5 @@
 import OurServices from '../../sub/LandingPage/About';
+import Contact from '../../sub/LandingPage/Contact';
 import Hero from '../../sub/LandingPage/Hero';
 import PricingCard from '../../sub/LandingPage/PricingCard';
 import NavBar from '../../sub/NavBar';
@@ -15,6 +16,9 @@ const LandingPage = () => {
       </section>
       <section className="bg-primary">
         <OurServices />
+      </section>
+      <section className="bg-primary">
+        <Contact />
       </section>
     </main>
   );
