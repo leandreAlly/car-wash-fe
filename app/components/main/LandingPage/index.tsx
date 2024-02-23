@@ -21,7 +21,7 @@ const LandingPage = () => {
       <section className="bg-primary">
         <Contact />
       </section>
-      <section className="bg-primary h-[40vh] max-sm:h-[100vh]">
+      <section className="bg-primary h-[70vh] max-sm:h-[100vh]">
         <Footer />
       </section>
     </main>
