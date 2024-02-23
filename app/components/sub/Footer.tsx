@@ -35,6 +35,16 @@ const Footer = () => {
             Open Hour: Every day 8.00 am- 5.00pm
           </Link>
           <Link href="#">Email: info@example.com</Link>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75126.51463154932!2d30.00997893994196!3d-1.9303718997165407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali%2C%20Rwanda!5e0!3m2!1sen!2sin!4v1708704125115!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            className="w-full h-40 max-sm:h-30 pt-5"
+            style={{ border: 0 }}
+            // allowfullscreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
